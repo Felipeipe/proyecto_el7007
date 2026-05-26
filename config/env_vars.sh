@@ -26,7 +26,7 @@ pip install --upgrade git+https://github.com/FabianIsensee/hiddenlayer.git
 cd ${nnUNet_raw}/Dataset001_oaizib
 gdown --folder "https://drive.google.com/drive/folders/1hrTVO5CikLl2s5zLRynJJUmXIzzkdbc-"
 rm -rf OAIZIB-CM/info.zip OAIZIB-CM/template_atlas.zip
-mv -r OAIZIB-CM/* .
+mv OAIZIB-CM/* .
 unzip imagesTr.zip
 rm -rf imagesTr.zip
 unzip imagesTs.zip
